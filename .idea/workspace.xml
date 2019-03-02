@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ecdd73d4-3e60-4d6d-9c58-9738dbd340f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ZSSR.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZSSR.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZSSR.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,8 +38,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ZSSR.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+            <state relative-caret-position="210">
+              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,9 +68,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="763" />
+    <option name="x" value="634" />
     <option name="y" value="23" />
-    <option name="width" value="924" />
+    <option name="width" value="1053" />
     <option name="height" value="977" />
   </component>
   <component name="ProjectView">
@@ -119,25 +120,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551567995944</updated>
-      <workItem from="1551567997363" duration="1170000" />
+      <workItem from="1551567997363" duration="2142000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1170000" />
+    <option name="totallyTimeSpent" value="2142000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="763" y="23" width="924" height="977" extended-state="0" />
+    <frame x="634" y="23" width="1053" height="977" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28684807" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16023739" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3299435" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3299435" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -178,8 +179,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ZSSR.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        <state relative-caret-position="210">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
