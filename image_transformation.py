@@ -102,3 +102,14 @@ class RandomCrop(object):
 
         i, j, h, w = self.get_params(data, self.size)
         return F.crop(hr, i, h, h, w), F.crop(lr, i, j, h, w)
+
+
+class ToTensor(object):
+    """
+    Depend:
+    torchvision.transforms.functional.to_tensor(pic)
+        Convert a PIL Image or numpy.ndarray to tensor.
+    """
+    def __call__(self, data):
+        hr, lr = data
+        return F.to_tensor(hr), F.to_tensor(lr)
