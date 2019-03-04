@@ -57,8 +57,11 @@ class DataSampler:
     def generate_data(self):
         while True:
             # random choose from pairs
-            hr, lr =
+            hr, lr = = random.choice(self.pairs)
             hr_tensor, lr_tensor = self.transform(hr, lr)
+            hr_tensor = torch.unsqueeze(hr_tensor, 0)
+            hr_tensor = torch.unsqueeze(lr_tensor, 0)
+            yield hr_tensor, lr_tensor
 
 
 if __name__ == '__main__':
@@ -66,4 +69,6 @@ if __name__ == '__main__':
     sampler = DataSampler(img, 2)
     for x in sampler.generate_data():
         hr, lr = x
+        hr = hr.numpy().transpose((1, 2, 0))
+        lr = lr.numpy().transpose((1, 2, 0))
 
